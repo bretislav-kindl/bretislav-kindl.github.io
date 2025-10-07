@@ -1,2 +1,2 @@
 # bretislav-kindl.github.io
-Hello
+This project is for performative presentative purpous.
