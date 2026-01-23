@@ -11,6 +11,7 @@
   <meta property="og:url" content="https://bretislav-kindl.github.io/">
   <meta name="theme-color" content="#0f172a">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
   <script src="./script.js"></script>
   <!-- jednoduché SVG favicon s iniciály -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2394a3b8'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-size='28' font-family='Arial' fill='white'%3EBK%3C/text%3E%3C/svg%3E">
@@ -50,9 +51,21 @@
       <h1 data-i18n="hero_title"></h1>
       <p data-i18n="hero_desc" data-i18n-html></p>
        <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap">
-        <a class="btn" href="mailto:bretislav.kindl@gmail.com" data-i18n="btn_email"></a>
-        <a class="btn" href="https://github.com/bretislav-kindl" target="_blank" data-i18n="btn_github"></a>
-        <a class="btn" href="https://bretislav-kindl.github.io/Bretislav_Kindl_CV.pdf" target="_blank" data-i18n="btn_cv"></a>   
+        <a class="btn" href="mailto:bretislav.kindl@gmail.com" aria-labelledby="btn-email-label">
+          <i class="btn-icon fa-regular fa-envelope" width="20" height="20" alt="CV"></i>
+          <span id="btn-email-label" class="btn-text" data-i18n="btn_email"></span>
+        </a>
+
+        <a class="btn" href="https://github.com/bretislav-kindl" target="_blank" rel="noopener noreferrer" aria-labelledby="btn-github-label">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+       alt="GitHub" class="btn-icon" width="20" height="20">
+          <span id="btn-github-label" class="btn-text" data-i18n="btn_github"></span>
+        </a>
+
+        <a class="btn" href="https://bretislav-kindl.github.io/Bretislav_Kindl_CV.pdf" target="_blank" rel="noopener noreferrer" aria-labelledby="btn-cv-label">
+          <i class="btn-icon fa-regular fa-file-pdf" width="20" height="20" alt="CV"></i>
+          <span id="btn-cv-label" class="btn-text" data-i18n="btn_cv"></span>
+        </a>
       </div>
      </div>
 
@@ -167,15 +180,17 @@
       <h2 data-i18n="contact_title"></h2>
       <p data-i18n-html="true">Preferuji kontakt e‑mailem. Telefon ani domácí adresu zde z bezpečnostních důvodů neuvádím.</p>
       <ul>
-        <li>✉️ <a href="mailto:bretislav.kindl@gmail.com" data-i18n="contact_email"></a></li>
-        <li>🐙 <a href="https://github.com/bretislav-kindl" target="_blank" data-i18n="contact_github"></a></li>
-        <li>in <a href="https://www.linkedin.com/in/bretislav-kindl-4a4266266" target="_blank" data-i18n="contact_linkedin"></a></li>
-        <li>📄 <a href="https://bretislav-kindl.github.io/Bretislav_Kindl_CV.pdf" target="_blank" data-i18n="contact_cv"></a></li>
+        <li><i class="btn-icon fa-regular fa-envelope" width="20" height="20" alt="CV"></i> <a href="mailto:bretislav.kindl@gmail.com" data-i18n="contact_email"></a></li>
+        <li><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+       alt="GitHub" width="21" height="21" class="github-mark"> <a href="https://github.com/bretislav-kindl" target="_blank" data-i18n="contact_github"></a></li>
+        <!-- <li>in <a href="https://www.linkedin.com/in/bretislav-kindl-4a4266266" target="_blank" data-i18n="contact_linkedin"></a></li> -->
+        <li><i class="btn-icon fa-regular fa-file-pdf" width="20" height="20" alt="CV"></i> <a href="https://bretislav-kindl.github.io/bretislav_kindl_cv_en_01_2026.pdf" target="_blank" data-i18n="contact_cv_en"></a></li>
+        <li><i class="btn-icon fa-regular fa-file-pdf" width="20" height="20" alt="CV"></i> <a href="https://bretislav-kindl.github.io/bretislav_kindl_cv_01_2026.pdf" target="_blank" data-i18n="contact_cv_cz"></a></li>
       </ul>
      </section>
 
      <footer>
-      © <span id="year"></span> Břetislav Kindl · <span data-i18n="footer_updated"></span> <!-- vyplní se automaticky při buildu nebo ručně -->
+      © <span id="year"></span> Břetislav Kindl · <span data-i18n="footer_updated">23.01.2026</span> <!-- vyplní se automaticky při buildu nebo ručně -->
      </footer>
    </div>
  </body>
