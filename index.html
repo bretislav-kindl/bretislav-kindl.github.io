@@ -21,10 +21,13 @@
     <header>
       <div class="header-row-top">
         <div class="brand">
-            <img src="profile_picture.JPG" alt="Portrét Břetislava Kindla" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 120 120\'%3E%3Crect width=\'120\' height=\'120\' fill=\'%2311182e\'/%3E%3Ctext x=\'60\' y=\'66\' text-anchor=\'middle\' font-size=\'42\' fill=\'%2394a3b8\' font-family=\'Arial\' %3EBK%3C/text%3E%3C/svg%3E';">
+            <!-- add data-i18n-attr for alt -->
+            <img src="profile_picture.JPG" data-i18n-attr="alt:alt_profile"
+              alt="Portrét Břetislava Kindla" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 120 120\'%3E%3Crect width=\'120\' height=\'120\' fill=\'%2311182e\'/%3E%3Ctext x=\'60\' y=\'66\' text-anchor=\'middle\' font-size=\'42\' fill=\'%2394a3b8\' font-family=\'Arial\' %3EBK%3C/text%3E%3C/svg%3E';">
           </div>
         <div class="site-title" aria-hidden="false">
-          <div class="site-name">Břetislav Kindl</div>
+          <!-- localize site name -->
+          <div class="site-name" data-i18n="personal_name">Břetislav Kindl</div>
           <div class="site-sub" data-i18n="hero_title"></div>
         </div>
       </div>
@@ -33,7 +36,7 @@
           <a href="#about" class="active" data-i18n="nav_about"></a>
           <a href="#research" data-i18n="nav_research"></a>
           <a href="#experience" data-i18n="nav_experience"></a>
-          <a href="#skills" data-i18n="nav_skills"></a>
+          <!--<a href="#skills" data-i18n="nav_skills"></a>-->
           <a href="#projects" data-i18n="nav_projects"></a>
           <a href="#contact" data-i18n="nav_contact"></a>
         </nav>
@@ -84,68 +87,33 @@
           <p class="meta" data-i18n="research_meta"></p>
         </div>
 
-         <h3>Publikace &amp; preprinty</h3>
-         <ul class="clean">
-           <li class="item">— Zatím žádné veřejné záznamy. Rád doplním, jakmile budou k dispozici (preprint, seminární práce, konferenční příspěvek).</li>
-         </ul>
-
-         <h3>Vyučování &amp; popularizace</h3>
-         <ul class="clean">
-           <li class="item">— Otevřené poznámky a tutoriály (plán): <code class="inline">R</code>, datová hygiena, scraping XHR a JSON API.</li>
+         <h3 data-i18n="pubs_title">Publikace &amp; preprinty</h3>
+         <ul class="clean" data-i18n-list="pubs_list">
+           <!-- fallback when array is empty -->
+           <li class="item" data-i18n="pubs_placeholder">— Zatím žádné veřejné záznamy...</li>
          </ul>
        </section>
 
        <section>
         <h2 data-i18n="education_title"></h2>
-         <div class="item">
-           <strong>Univerzita Karlova — Sociologie</strong>
-           <div class="meta">10/2022 – současnost • Praha</div>
-         </div>
-         <div class="item">
-           <strong>SPŠ na Proseku — Informační technologie (EQF 4)</strong>
-           <div class="meta">09/2014 – 06/2018 • Praha</div>
-         </div>
-
-         <h2 style="margin-top:18px">Jazyky</h2>
-         <div class="two-col">
-           <div class="item"><strong>Čeština</strong> — rodilý mluvčí</div>
-           <div class="item"><strong>Angličtina</strong> — C1–C2</div>
-           <div class="item"><strong>Ruština</strong> — A1–B1</div>
-         </div>
+          <ul class="clean" data-i18n-list="education_list">
+           <!-- fallback items will be replaced when translations.education_list has entries -->
+         </ul>
+         <h2 style="margin-top:18px" data-i18n="languages_title">Jazyky</h2>
+         <ul class="two-col" data-i18n-list="languages">
+           <!-- fallback items will be replaced when translations.languages has entries -->
+         </ul>
        </section>
      </div>
 
     <section id="experience">
       <h2 data-i18n="experience_title"></h2>
-       <div class="item">
-         <strong>Frontend Web Developer — Baader Computer spol. s r.o.</strong>
-         <div class="meta">04/2020 – 11/2024 • Praha</div>
-         <ul>
-           <li>Vývoj webových aplikací: <em>Sencha Ext JS</em>, HTML5, CSS3 (Sass)</li>
-           <li>Práce v týmu, code review, psaní dokumentace</li>
-           <li>Nástroje: IntelliJ IDEA, Chrome DevTools, GitLab/GitHub/TortoiseHg, Jenkins, Apache Maven</li>
-           <li>Excel makra, úprava podkladových dat a grafiky</li>
-         </ul>
-       </div>
-       <div class="item">
-         <strong>Analytik dat — Hays Czech Republic, s.r.o.</strong>
-         <div class="meta">11/2019 – 02/2020 • Praha</div>
-         <ul>
-           <li>Analýza XHR requestů a webových datových toků</li>
-           <li>Úprava JSON šablon a datová transformace</li>
-         </ul>
-       </div>
-       <div class="item">
-         <strong>Full‑stack junior developer — Atteq, s.r.o.</strong>
-         <div class="meta">05/2016 – 03/2017 • Praha</div>
-         <ul>
-           <li>Webové aplikace v JavaScriptu, úprava HTML templátů</li>
-           <li>Práce s Python skripty, čištění a úprava dat (Excel)</li>
-           <li>SQL (dotazování), Excel makra</li>
-         </ul>
-       </div>
+      <div data-i18n-list="experience_list">
+        <!-- fallback items will be replaced when translations.experience_list has entries -->
+      </div>
      </section>
 
+     <!--
      <section id="skills">
       <h2 data-i18n="skills_title"></h2>
        <div class="two-col">
@@ -167,18 +135,18 @@
          </div>
        </div>
      </section>
-
+      -->
      <section id="projects">
       <h2 data-i18n="projects_title"></h2>
-      <ul class="clean">
-        <li class="item">📦 <strong data-i18n="projects_link_github"></strong> — <span data-i18n="projects_note"></span>: <a href="https://github.com/bretislav-kindl" target="_blank">https://github.com/bretislav-kindl</a></li>
-        <li class="item">🧪 <em>Seminární / výzkumné práce</em> — zde bude přehled (po zveřejnění) se soubory a notebooky.</li>
+      <ul class="clean" data-i18n-list="projects_list">
+        <!-- fallback entry preserves current GitHub link -->
       </ul>
      </section>
 
      <section id="contact">
       <h2 data-i18n="contact_title"></h2>
-      <p data-i18n-html="true">Preferuji kontakt e‑mailem. Telefon ani domácí adresu zde z bezpečnostních důvodů neuvádím.</p>
+      <!-- prefer html variant for preserved markup -->
+      <p data-i18n="contact_pref" data-i18n-html></p>
       <ul>
         <li><i class="btn-icon fa-regular fa-envelope" width="20" height="20" alt="CV"></i> <a href="mailto:bretislav.kindl@gmail.com" data-i18n="contact_email"></a></li>
         <li><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
@@ -190,7 +158,7 @@
      </section>
 
      <footer>
-      © <span id="year"></span> Břetislav Kindl · <span data-i18n="footer_updated">23.01.2026</span> <!-- vyplní se automaticky při buildu nebo ručně -->
+      © <span id="year"></span> <span data-i18n="personal_name">Břetislav Kindl</span> · <span data-i18n="footer_updated">25.01.2026</span> <span data-i18n="footer_updated_date"></span>
      </footer>
    </div>
  </body>

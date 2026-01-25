@@ -22,11 +22,10 @@
           tag_ethics: "Datová etika",
           tag_r: "R & SPSS",
           research_meta: "Hledám možnosti pro spolupráci na projektech, stáže a výzkumné asistentury. Pokud máte dataset nebo problém, který by se hodil pro kvantitativní/počítačová sociální data science, napište mi.",
-          pubs_title: "Publikace & preprinty",
-          teach_title: "Vyučování & popularizace",
+          pubs_title: "Konferecenční příspěvky",
           projects_title: "Vybrané projekty",
           projects_link_github: "GitHub portfolio",
-          projects_note: "Seminární / výzkumné práce — zde bude přehled (po zveřejnění).",
+          projects_note: "Seminární / výzkumné práce",
           experience_title: "Praxe (vybrané)",
           education_title: "Vzdělání",
           skills_title: "Technické dovednosti",
@@ -37,18 +36,22 @@
           contact_cv_cz: "CV - CZ",
           contact_cv_en: "CV - EN",
           footer_updated: "Poslední aktualizace:",
+          personal_name: "Břetislav Kindl",
+          alt_profile: "Portrét Břetislava Kindla",
+          contact_pref: "Preferuji kontakt e‑mailem. Telefon ani domácí adresu zde z bezpečnostních důvodů neuvádím.",
+          languages_title: "Jazyky",
           // populated lists from CV (plain strings for simple rendering)
           experience_list: [
-            "17.02.2025 – Aktuální — Specialista pro práci s daty, Ministerstvo školství, mládeže a tělovýchovy, Praha — programování v jazyce R; Web scraping; MS Excel, Word; práce s verzovacím systémem GitLab; věcná analýza dat.",
-            "01.10.2025 – 19.12.2025 — Metadatový specialista, Sociologický ústav AV ČR, Praha — kontrola správnosti a úplnosti metadatových záznamů; úprava záznamů podle standardů; ověřování a přiřazování termínů ze sociálněvědních slovníků; skript pro kontrolu úplnosti v Dataverse.",
-            "01.04.2020 – 30.11.2024 — Frontend Web Developer, Baader Computer spol. s r.o., Praha — vývoj webových aplikací v Sencha Ext JS; HTML5, CSS3 (Sass); práce v týmu; IntelliJ IDEA; debug v Chrome DevTools; GitLab/GitHub/TortoiseHg; Jenkins; Apache Maven; tvorba Excel makro; dokumentace; úprava obrázků pro web.",
-            "11.06.2019 – 29.02.2020 — Analytik dat, Hays Czech Republic, s.r.o., Praha — analýza XHR requestů webových stránek; úprava datových template v JSONu; přepisování dat do PC.",
-            "01.05.2016 – 03.03.2017 — Full-stack junior developer, Atteq, s.r.o., Praha — vývoj webových aplikací v JavaScriptu; úprava HTML šablon; práce s Python skripty; čištění a úprava Excel dokumentů; tvorba Excel makro; práce se SQL."
+            "Specialista pro práci s daty, Ministerstvo školství, mládeže a tělovýchovy | Aktuální • Praha <ul><li>programování v jazyce R</li><li>Web scraping</li><li>MS Excel, Word</li><li>práce s verzovacím systémem GitLab</li><li>věcná analýza dat</li></ul>",
+            "Metadatový specialista, Sociologický ústav AV ČR | Praha <ul><li>kontrola správnosti a úplnosti metadatových záznamů</li><li>úprava záznamů podle standardů</li><li>ověřování a přiřazování termínů ze sociálněvědních slovníků</li><li>skript pro kontrolu úplnosti v Dataverse</li></ul>",
+            "Frontend Web Developer, Baader Computer spol. s r.o. | Praha <ul><li>vývoj webových aplikací v Sencha Ext JS</li><li>HTML5, CSS3 (Sass)</li><li>práce v týmu</li><li>IntelliJ IDEA</li><li>debug v Chrome DevTools</li><li>GitLab/GitHub/TortoiseHg</li><li>Jenkins</li><li>Apache Maven</li><li>tvorba Excel makro</li><li>dokumentace</li><li>úprava obrázků pro web</li></ul>",
+            "Analytik dat, Hays Czech Republic, s.r.o. | Praha <ul><li>analýza XHR requestů webových stránek</li><li>úprava datových template v JSONu</li><li>přepisování dat do PC</li></ul>",
+            "Full-stack junior developer, Atteq, s.r.o. | Praha <ul><li>vývoj webových aplikací v JavaScriptu</li><li>úprava HTML šablon</li><li>práce s Python skripty</li><li>čištění a úprava Excel dokumentů</li><li>tvorba Excel makro</li><li>práce se SQL</li></ul>"
           ],
           education_list: [
-            "01.10.2025 – Aktuální — Sociologie (magisterské), Univerzita Karlova, Filozofická fakulta, Katedra sociologie — Studijní obor: Sociologie a kulturologie (EQF 7). https://ksoc.ff.cuni.cz/",
-            "01.10.2022 – 12.08.2025 — Sociologie (bakalářské), Univerzita Karlova, Filozofická fakulta, Katedra sociologie — Studijní obor: Sociologie a kulturologie (EQF 6). https://ksoc.ff.cuni.cz/",
-            "01.09.2014 – 01.06.2018 — 18-20-M/01 Informační technologie, Střední průmyslová škola na Proseku, Praha — programování webových aplikací (HTML5, CSS3, JavaScript/jQuery, PHP, MySQL); .NET; projektování databází; Cisco; Linux Red Hat; Windows Server; grafika (Adobe Photoshop/Illustrator); programování mikrokontrolerů. https://www.sps-prosek.cz/"
+            "Univerzita Karlova — Sociologie (magisterské) | Probíhající • Filozofická fakulta, Katedra sociologie</br><a href=\"https://ksoc.ff.cuni.cz/\">www.ksoc.ff.cuni.cz</a>",
+            "Univerzita Karlova — Sociologie (bakalářské) | Filozofická fakulta, Katedra sociologie</br><a href=\"https://ksoc.ff.cuni.cz/\">www.ksoc.ff.cuni.cz</a>",
+            'Střední průmyslová škola na Proseku — Informační technologie | <a href="https://www.sps-prosek.cz/">www.sps-prosek.cz</a>'
           ],
           skills_list: [
             "R",
@@ -67,16 +70,17 @@
           ],
           languages: [
             "Čeština — mateřský jazyk",
-            "Angličtina — Poslech: C2; Čtení: C2; Mluvená komunikace: C1; Samostatný ústní projev: C1; Psaní: C1",
-            "Ruština — Poslech: B1; Čtení: B1; Mluvená komunikace: A1; Samostatný ústní projev: A1; Psaní: A1"
+            "Angličtina — C1",
+            "Ruština — B1"
           ],
           pubs_list: [
-            /* zachovat prázdné místo pro budoucí publikace */
+            'Sociologický ústav AV ČR - Seminář (4.12.2025) | Kulturní kapitál a akademická self-efficacy: vliv rodinného prostředí a souvislosti s úspěšností ve vzdělávání u žáků druhého stupně ZŠ</br> <a href="https://www.soc.cas.cz/cz/akce/seminare/kulturni-kapital-a-akademicka-self-efficacy-vliv-rodinneho-prostredi-a-souvislosti-s-uspesnosti-ve-vzdelavani-u-zaku-druheho-stupne-zs">www.soc.cas.cz</a>'
           ],
           projects_list: [
-            /* zachovat prostor pro projekty — doplnit později */
+            "Bakalářské práce  | Sebedůvěra ve vlastní uplatnění (self-efficacy) a výsledky ve vzdělávání u žáků základních škol: <a href=\"https://dspace.cuni.cz/handle/20.500.11956/205673\">dspace.cuni.cz</a>",
+            "GitHub portfolio  | Seminární / výzkumné práce: <a href=\"https://github.com/bretislav-kindl\">github.com/bretislav-kindl</a>"
           ],
-          footer_updated_date: "01.2026"
+          footer_updated_date: "25.01.2026"
         },
         en: {
           nav_about: "About",
@@ -98,11 +102,10 @@
           tag_ethics: "Data ethics",
           tag_r: "R & SPSS",
           research_meta: "I am open to collaboration on projects, internships and research assistant roles. If you have a dataset or a problem suitable for quantitative/computational social data science, please get in touch.",
-          pubs_title: "Publications & preprints",
-          teach_title: "Teaching & outreach",
+          pubs_title: "Conference participation",
           projects_title: "Selected projects",
           projects_link_github: "GitHub portfolio",
-          projects_note: "Seminar / research works — listing will appear here (after publication).",
+          projects_note: "Seminar / research works",
           experience_title: "Experience (selected)",
           education_title: "Education",
           skills_title: "Technical skills",
@@ -114,26 +117,21 @@
           contact_cv_en: "CV - EN",
           footer_updated: "Last updated:",
           personal_name: "Břetislav Kindl",
-          personal_dob: "11/11/1998",
-          personal_gender: "Male",
-          personal_nationality: "Czech",
-          personal_mobile: "+420 721250404",
-          personal_email: "bretislav.kindl@gmail.com",
-          personal_website: "https://bretislav-kindl.github.io/",
-          personal_linkedin: "Břetislav Kindl",
-          personal_github: "bretislav-kindl",
-          personal_address: "Hornomlýnská 1232/5, 14800, Praha, Czechia",
+          alt_profile: "Portrait of Břetislav Kindl",
+          contact_pref: "I prefer contact by email. I do not publish phone numbers or home addresses here for privacy reasons.",
+          languages_title: "Languages",
+          pubs_placeholder: "— No public records yet. I will update here once preprints or conference papers are available.",
           experience_list: [
-            "17/02/2025 – Current — Data Specialist, Ministry of Education, Youth and Sports | Prague, Czechia — Data analysis and processing using R; web scraping and automated data collection; MS Excel & Word; version control (GitLab); substantive analytical interpretation of data.",
-            "01/10/2025 – 19/12/2025 — Metadata Specialist, Institute of Sociology, Czech Academy of Sciences | Prague, Czechia — Reviewing accuracy and completeness of metadata records; editing metadata to standards and creating new records; verifying and assigning terms from controlled social science vocabularies; scripting validation of metadata completeness in Dataverse.",
-            "01/04/2020 – 30/11/2024 — Web Developer, Baader Computer spol. s r.o. | Prague, Czechia — Web application development with Sencha Ext JS, HTML5, CSS3 (Sass); team collaboration; IntelliJ IDEA; Chrome DevTools debugging; Git-based version control (GitLab, GitHub) and Mercurial (TortoiseHg); Jenkins CI maintenance; Apache Maven; Excel macros; technical documentation; image editing/optimization for web.",
-            "11/06/2019 – 29/02/2020 — Data Analyst, Hays Czech Republic, s.r.o. | Prague, Czechia — Analysis of XHR requests; editing JSON data templates; transcribing data.",
-            "01/05/2016 – 03/03/2017 — Web Developer (junior), Atteq, s.r.o. | Prague, Czechia — Web app development in JavaScript; editing HTML templates; working with Python scripts; cleaning and processing Excel documents; creating Excel macros; SQL work."
+            "Data Specialist, Ministry of Education, Youth and Sports | Current • Prague, Czechia <ul><li>Data analysis and processing using R</li><li>Web scraping and automated data collection</li><li>MS Excel & Word</li><li>Version control (GitLab)</li><li>Substantive analytical interpretation of data</li></ul>",
+            "Metadata Specialist, Institute of Sociology, Czech Academy of Sciences | Prague, Czechia <ul><li>Reviewing accuracy and completeness of metadata records</li><li>Editing metadata to standards and creating new records</li><li>Verifying and assigning terms from controlled social science vocabularies</li><li>Scripting validation of metadata completeness in Dataverse</li></ul>",
+            "Web Developer, Baader Computer spol. s r.o. | Prague, Czechia <ul><li>Web application development with Sencha Ext JS, HTML5, CSS3 (Sass)</li><li>Team collaboration</li><li>IntelliJ IDEA</li><li>Chrome DevTools debugging</li><li>Git-based version control (GitLab, GitHub) and Mercurial (TortoiseHg)</li><li>Jenkins CI maintenance</li><li>Apache Maven</li><li>Excel macros</li><li>Technical documentation</li><li>Image editing/optimization for web</li></ul>",
+            "Data Analyst, Hays Czech Republic, s.r.o. | Prague, Czechia <ul><li>Analysis of XHR requests</li><li>Editing JSON data templates</li><li>Transcribing data</li></ul>",
+            "Web Developer (junior), Atteq, s.r.o. | Prague, Czechia <ul><li>Web app development in JavaScript</li><li>Editing HTML templates</li><li>Working with Python scripts</li><li>Cleaning and processing Excel documents</li><li>Creating Excel macros</li><li>SQL work</li></ul>"
           ],
           education_list: [
-            "01/10/2025 – Current — Sociology (Master’s), Charles University, Faculty of Arts, Department of Sociology | Prague, Czechia — Field(s) of study: Sociology and cultural studies | EQF level: 7 | https://ksoc.ff.cuni.cz/",
-            "01/10/2022 – 12/08/2025 — Sociology (Bachelor’s), Charles University, Faculty of Arts, Department of Sociology | Prague, Czechia — Field(s) of study: Sociologie and cultural studies | EQF level: 6 | https://ksoc.ff.cuni.cz/",
-            "01/09/2014 – 01/06/2018 — 18-20-M/01 Information Technology, Secondary Technical School in Prosek | Prague, Czechia — Programming web applications (HTML5, CSS3, JavaScript/jQuery, PHP, MySQL); .NET apps; database design; Cisco networking basics; Linux Red Hat; Windows Server; vector & raster graphics (Adobe Photoshop/Illustrator); microcontroller programming. | EQF level: 4 | https://www.sps-prosek.cz/"
+            "Charles University — Sociology (Master’s) | Ongoing • Faculty of Arts, Department of Sociology</br><a href=\"https://ksoc.ff.cuni.cz/\">ksoc.ff.cuni.cz</a>",
+            "Charles University — Sociology (Bachelor’s) | Faculty of Arts, Department of Sociology</br><a href=\"https://ksoc.ff.cuni.cz/\">ksoc.ff.cuni.cz</a>",
+            "Secondary Technical School in Prosek — Information Technology</br><a href=\"https://www.sps-prosek.cz/\">sps-prosek.cz</a>"
           ],
           skills_list: [
             "SPSS",
@@ -153,16 +151,17 @@
           ],
           languages: [
             "Czech — Mother tongue",
-            "English — Listening: C2; Reading: C2; Spoken production: C1; Spoken interaction: C1; Writing: C1",
-            "Russian — Listening: B1; Reading: B1; Spoken production: A1; Spoken interaction: A1; Writing: A1"
+            "English — C1",
+            "Russian — B1"
           ],
           pubs_list: [
-            /* placeholder for future publications */
+            'Institute of Sociology of the Czech Academy of Sciences - Seminar (4.12.2025) | Cultural Capital and Academic Self‑Efficacy: The Influence of Family Background and Its Relationship to Educational Achievement Among Lower‑Secondary School Students</br> <a href="https://www.soc.cas.cz/cz/akce/seminare/kulturni-kapital-a-akademicka-self-efficacy-vliv-rodinneho-prostredi-a-souvislosti-s-uspesnosti-ve-vzdelavani-u-zaku-druheho-stupne-zs">www.soc.cas.cz</a>'
           ],
           projects_list: [
-            /* placeholder for future projects */
+            "Bachelor’s Thesis  | Self-efficacy and educational achievement in primary school pupils: <a href=\"https://dspace.cuni.cz/handle/20.500.11956/205673\">dspace.cuni.cz</a>",
+            "GitHub portfolio  | Seminar / research works: <a href=\"https://github.com/bretislav-kindl\">github.com/bretislav-kindl</a>"
           ],
-          footer_updated_date: "01.2026" // replace with exact date from cv_en_01_2026
+          footer_updated_date: "25.01.2026" // replace with exact date from cv_en_01_2026
         }
       };
 
@@ -186,12 +185,111 @@
             if(attr && key && dict[key]!=null) el.setAttribute(attr, dict[key]);
           });
         });
+        // render lists from translation arrays: elements with data-i18n-list="<key>"
+        document.querySelectorAll('[data-i18n-list]').forEach(el=>{
+          const key = el.getAttribute('data-i18n-list');
+          const arr = dict[key];
+          if(!Array.isArray(arr) || arr.length === 0) return; // keep fallback markup if present
+          el.innerHTML = ''; // clear fallback
+          arr.forEach(item => {
+            // if container is a DIV, create div.item entries; otherwise create li entries
+            if(el.tagName === 'DIV'){
+              el.appendChild(createDivItemFromI18n(item));
+            } else {
+              el.appendChild(createListItemFromI18n(item));
+            }
+          });
+        });
         // set html lang and store
         document.documentElement.lang = lang;
         localStorage.setItem('site_lang', lang);
         // update selector value if present
         const sel = document.getElementById('lang-select');
         if(sel) sel.value = lang;
+      }
+
+      // helper to create a <li> from an i18n list item
+      function createListItemFromI18n(item){
+        const li = document.createElement('li');
+        li.className = 'item';
+        // object form: { left: 'Title', right: '<a>...</a>' }
+        if(item && typeof item === 'object' && !Array.isArray(item)){
+          if(item.left){
+            const strong = document.createElement('strong');
+            strong.textContent = String(item.left);
+            li.appendChild(strong);
+            li.appendChild(document.createTextNode(' '));
+          }
+          if(item.right != null){
+            const rightDiv = document.createElement('div');
+            rightDiv.innerHTML = String(item.right);
+            li.appendChild(rightDiv);
+          }
+          return li;
+        }
+        // string form
+        if(typeof item === 'string'){
+          // support left|right split (first pipe splits)
+          if(item.includes('|')){
+            const [left, ...rest] = item.split('|');
+            const right = rest.join('|');
+            const strong = document.createElement('strong');
+            strong.textContent = left.trim();
+            const rightDiv = document.createElement('div');
+            rightDiv.innerHTML = right.trim();
+            li.appendChild(strong);
+            li.appendChild(document.createTextNode(' '));
+            li.appendChild(rightDiv);
+            return li;
+          }
+          // fallback: allow simple HTML
+          li.innerHTML = item;
+          return li;
+        }
+        // unknown type -> empty item
+        li.textContent = String(item);
+        return li;
+      }
+
+      // helper to create a <div class="item"> from an i18n list item
+      function createDivItemFromI18n(item){
+        const wrap = document.createElement('div');
+        wrap.className = 'item';
+        // object form: { left: 'Title', right: '<a>...</a>' }
+        if(item && typeof item === 'object' && !Array.isArray(item)){
+          if(item.left){
+            const strong = document.createElement('strong');
+            strong.textContent = String(item.left);
+            wrap.appendChild(strong);
+            wrap.appendChild(document.createTextNode(' '));
+          }
+          if(item.right != null){
+            const rightDiv = document.createElement('div');
+            rightDiv.innerHTML = String(item.right);
+            wrap.appendChild(rightDiv);
+          }
+          return wrap;
+        }
+        // string form
+        if(typeof item === 'string'){
+          if(item.includes('|')){
+            const [left, ...rest] = item.split('|');
+            const right = rest.join('|');
+            const strong = document.createElement('strong');
+            strong.textContent = left.trim();
+            const rightDiv = document.createElement('div');
+            rightDiv.innerHTML = right.trim();
+            wrap.appendChild(strong);
+            wrap.appendChild(document.createTextNode(' '));
+            wrap.appendChild(rightDiv);
+            return wrap;
+          }
+          // fallback: allow simple HTML
+          wrap.innerHTML = item;
+          return wrap;
+        }
+        wrap.textContent = String(item);
+        return wrap;
       }
 
       // init smooth scroll for anchors
