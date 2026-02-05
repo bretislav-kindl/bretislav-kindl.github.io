@@ -44,14 +44,11 @@
           experience_list: [
             "Specialista pro práci s daty, Ministerstvo školství, mládeže a tělovýchovy | Aktuální • Praha <ul><li>programování v jazyce R</li><li>Web scraping</li><li>MS Excel, Word</li><li>práce s verzovacím systémem GitLab</li><li>věcná analýza dat</li></ul>",
             "Metadatový specialista, Sociologický ústav AV ČR | Praha <ul><li>kontrola správnosti a úplnosti metadatových záznamů</li><li>úprava záznamů podle standardů</li><li>ověřování a přiřazování termínů ze sociálněvědních slovníků</li><li>skript pro kontrolu úplnosti v Dataverse</li></ul>",
-            "Frontend Web Developer, Baader Computer spol. s r.o. | Praha <ul><li>vývoj webových aplikací v Sencha Ext JS</li><li>HTML5, CSS3 (Sass)</li><li>práce v týmu</li><li>IntelliJ IDEA</li><li>debug v Chrome DevTools</li><li>GitLab/GitHub/TortoiseHg</li><li>Jenkins</li><li>Apache Maven</li><li>tvorba Excel makro</li><li>dokumentace</li><li>úprava obrázků pro web</li></ul>",
-            "Analytik dat, Hays Czech Republic, s.r.o. | Praha <ul><li>analýza XHR requestů webových stránek</li><li>úprava datových template v JSONu</li><li>přepisování dat do PC</li></ul>",
-            "Full-stack junior developer, Atteq, s.r.o. | Praha <ul><li>vývoj webových aplikací v JavaScriptu</li><li>úprava HTML šablon</li><li>práce s Python skripty</li><li>čištění a úprava Excel dokumentů</li><li>tvorba Excel makro</li><li>práce se SQL</li></ul>"
+            "Frontend Web Developer, Baader Computer spol. s r.o. | Praha <ul><li>vývoj webových aplikací v Sencha Ext JS</li><li>HTML5, CSS3 (Sass)</li><li>práce v týmu</li><li>IntelliJ IDEA</li><li>debug v Chrome DevTools</li><li>GitLab/GitHub/TortoiseHg</li><li>Jenkins</li><li>Apache Maven</li><li>tvorba Excel makro</li><li>dokumentace</li><li>úprava obrázků pro web</li></ul>"
           ],
           education_list: [
             "Univerzita Karlova — Sociologie (magisterské) | Probíhající • Filozofická fakulta, Katedra sociologie</br><a href=\"https://ksoc.ff.cuni.cz/\">www.ksoc.ff.cuni.cz</a>",
-            "Univerzita Karlova — Sociologie (bakalářské) | Filozofická fakulta, Katedra sociologie</br><a href=\"https://ksoc.ff.cuni.cz/\">www.ksoc.ff.cuni.cz</a>",
-            'Střední průmyslová škola na Proseku — Informační technologie | <a href="https://www.sps-prosek.cz/">www.sps-prosek.cz</a>'
+            "Univerzita Karlova — Sociologie (bakalářské) | Filozofická fakulta, Katedra sociologie</br><a href=\"https://ksoc.ff.cuni.cz/\">www.ksoc.ff.cuni.cz</a>"
           ],
           skills_list: [
             "R",
@@ -124,14 +121,11 @@
           experience_list: [
             "Data Specialist, Ministry of Education, Youth and Sports | Current • Prague, Czechia <ul><li>Data analysis and processing using R</li><li>Web scraping and automated data collection</li><li>MS Excel & Word</li><li>Version control (GitLab)</li><li>Substantive analytical interpretation of data</li></ul>",
             "Metadata Specialist, Institute of Sociology, Czech Academy of Sciences | Prague, Czechia <ul><li>Reviewing accuracy and completeness of metadata records</li><li>Editing metadata to standards and creating new records</li><li>Verifying and assigning terms from controlled social science vocabularies</li><li>Scripting validation of metadata completeness in Dataverse</li></ul>",
-            "Web Developer, Baader Computer spol. s r.o. | Prague, Czechia <ul><li>Web application development with Sencha Ext JS, HTML5, CSS3 (Sass)</li><li>Team collaboration</li><li>IntelliJ IDEA</li><li>Chrome DevTools debugging</li><li>Git-based version control (GitLab, GitHub) and Mercurial (TortoiseHg)</li><li>Jenkins CI maintenance</li><li>Apache Maven</li><li>Excel macros</li><li>Technical documentation</li><li>Image editing/optimization for web</li></ul>",
-            "Data Analyst, Hays Czech Republic, s.r.o. | Prague, Czechia <ul><li>Analysis of XHR requests</li><li>Editing JSON data templates</li><li>Transcribing data</li></ul>",
-            "Web Developer (junior), Atteq, s.r.o. | Prague, Czechia <ul><li>Web app development in JavaScript</li><li>Editing HTML templates</li><li>Working with Python scripts</li><li>Cleaning and processing Excel documents</li><li>Creating Excel macros</li><li>SQL work</li></ul>"
+            "Web Developer, Baader Computer spol. s r.o. | Prague, Czechia <ul><li>Web application development with Sencha Ext JS, HTML5, CSS3 (Sass)</li><li>Team collaboration</li><li>IntelliJ IDEA</li><li>Chrome DevTools debugging</li><li>Git-based version control (GitLab, GitHub) and Mercurial (TortoiseHg)</li><li>Jenkins CI maintenance</li><li>Apache Maven</li><li>Excel macros</li><li>Technical documentation</li><li>Image editing/optimization for web</li></ul>"
           ],
           education_list: [
             "Charles University — Sociology (Master’s) | Ongoing • Faculty of Arts, Department of Sociology</br><a href=\"https://ksoc.ff.cuni.cz/\">ksoc.ff.cuni.cz</a>",
-            "Charles University — Sociology (Bachelor’s) | Faculty of Arts, Department of Sociology</br><a href=\"https://ksoc.ff.cuni.cz/\">ksoc.ff.cuni.cz</a>",
-            "Secondary Technical School in Prosek — Information Technology</br><a href=\"https://www.sps-prosek.cz/\">sps-prosek.cz</a>"
+            "Charles University — Sociology (Bachelor’s) | Faculty of Arts, Department of Sociology</br><a href=\"https://ksoc.ff.cuni.cz/\">ksoc.ff.cuni.cz</a>"
           ],
           skills_list: [
             "SPSS",
