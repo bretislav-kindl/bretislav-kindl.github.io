@@ -76,7 +76,7 @@
           projects_list: [
             /* zachovat prostor pro projekty — doplnit později */
           ],
-          footer_updated_date: "01.2026"
+          footer_updated_date: "22.09.2026"
         },
         en: {
           nav_about: "About",
@@ -162,7 +162,7 @@
           projects_list: [
             /* placeholder for future projects */
           ],
-          footer_updated_date: "01.2026" // replace with exact date from cv_en_01_2026
+          footer_updated_date: "22.09.2026"
         }
       };
 
@@ -186,6 +186,9 @@
             if(attr && key && dict[key]!=null) el.setAttribute(attr, dict[key]);
           });
         });
+        // update footer date (kept separate from the "footer_updated" label so JS doesn't clobber it)
+        const dateEl = document.getElementById('footer-updated-date');
+        if(dateEl && dict.footer_updated_date != null) dateEl.textContent = dict.footer_updated_date;
         // set html lang and store
         document.documentElement.lang = lang;
         localStorage.setItem('site_lang', lang);
@@ -203,11 +206,20 @@
       // year in footer
       const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();
 
-      // initialize language from localStorage or browser
-      const stored = localStorage.getItem('site_lang') || (navigator.language && navigator.language.startsWith('en') ? 'en' : 'cs');
+      // initialize language: a page can force a language via <html data-force-lang="..">
+      // (used by the standalone /en/ static page so it always renders in English)
+      const forced = document.documentElement.getAttribute('data-force-lang');
+      const stored = forced || localStorage.getItem('site_lang') || (navigator.language && navigator.language.startsWith('en') ? 'en' : 'cs');
       setLanguage(stored);
 
-      // language selector change handler
+      // language selector: navigate between the static / (cs) and /en/ (en) pages
+      // instead of just swapping text, so the URL and hreflang stay correct
       const langSel = document.getElementById('lang-select');
-      if(langSel) langSel.addEventListener('change',(e)=>setLanguage(e.target.value));
+      if(langSel) langSel.addEventListener('change',(e)=>{
+        const lang = e.target.value;
+        localStorage.setItem('site_lang', lang);
+        const onEnPage = /(^|\/)en\/?(index\.html)?$/.test(location.pathname);
+        if(lang === 'en' && !onEnPage) location.href = './en/';
+        else if(lang === 'cs' && onEnPage) location.href = '../';
+      });
     });
