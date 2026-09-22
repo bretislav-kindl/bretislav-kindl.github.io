@@ -25,7 +25,9 @@
     <header>
       <div class="header-row-top">
         <div class="brand">
-            <img src="profile_picture.JPG" alt="Portrét Břetislava Kindla" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 120 120\'%3E%3Crect width=\'120\' height=\'120\' fill=\'%2311182e\'/%3E%3Ctext x=\'60\' y=\'66\' text-anchor=\'middle\' font-size=\'42\' fill=\'%2394a3b8\' font-family=\'Arial\' %3EBK%3C/text%3E%3C/svg%3E';">
+            <!-- add data-i18n-attr for alt -->
+            <img src="profile_picture.JPG" data-i18n-attr="alt:alt_profile"
+              alt="Portrét Břetislava Kindla" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 120 120\'%3E%3Crect width=\'120\' height=\'120\' fill=\'%2311182e\'/%3E%3Ctext x=\'60\' y=\'66\' text-anchor=\'middle\' font-size=\'42\' fill=\'%2394a3b8\' font-family=\'Arial\' %3EBK%3C/text%3E%3C/svg%3E';">
           </div>
         <div class="site-title" aria-hidden="false">
           <div class="site-name">Břetislav Kindl</div>
@@ -66,7 +68,7 @@
           <span id="btn-github-label" class="btn-text" data-i18n="btn_github">GitHub</span>
         </a>
 
-        <a class="btn" href="https://bretislav-kindl.github.io/Bretislav_Kindl_CV.pdf" target="_blank" rel="noopener noreferrer" aria-labelledby="btn-cv-label">
+        <a class="btn" href="https://bretislav-kindl.github.io/bretislav_kindl_cv_en_02_2026.pdf" target="_blank" rel="noopener noreferrer" aria-labelledby="btn-cv-label">
           <i class="btn-icon fa-regular fa-file-pdf" width="20" height="20" alt="CV"></i>
           <span id="btn-cv-label" class="btn-text" data-i18n="btn_cv">CV (PDF)</span>
         </a>
@@ -88,14 +90,10 @@
           <p class="meta" data-i18n="research_meta">Hledám možnosti pro spolupráci na projektech, stáže a výzkumné asistentury. Pokud máte dataset nebo problém, který by se hodil pro kvantitativní/počítačová sociální data science, napište mi.</p>
         </div>
 
-         <h3>Publikace &amp; preprinty</h3>
-         <ul class="clean">
-           <li class="item">— Zatím žádné veřejné záznamy. Rád doplním, jakmile budou k dispozici (preprint, seminární práce, konferenční příspěvek).</li>
-         </ul>
-
-         <h3>Vyučování &amp; popularizace</h3>
-         <ul class="clean">
-           <li class="item">— Otevřené poznámky a tutoriály (plán): <code class="inline">R</code>, datová hygiena, scraping XHR a JSON API.</li>
+         <h3 data-i18n="pubs_title">Publikace &amp; preprinty</h3>
+         <ul class="clean" data-i18n-list="pubs_list">
+           <!-- fallback when array is empty -->
+           <li class="item" data-i18n="pubs_placeholder">— Zatím žádné veřejné záznamy...</li>
          </ul>
        </section>
 
@@ -150,6 +148,7 @@
        </div>
      </section>
 
+     <!--
      <section id="skills">
       <h2 data-i18n="skills_title">Technické dovednosti</h2>
        <div class="two-col">
@@ -171,7 +170,7 @@
          </div>
        </div>
      </section>
-
+      -->
      <section id="projects">
       <h2 data-i18n="projects_title">Vybrané projekty</h2>
       <ul class="clean">
